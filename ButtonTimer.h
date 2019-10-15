@@ -14,7 +14,7 @@ public:
     //Defining Constants
 
     // Defining Functions
-    Timer(unsigned long timeOut);
+    ButtonTimer(unsigned long timeOut);
     bool isSwitchOn(int btn);
     bool buttonTimerHasExpired();
     void startButtonTimer(unsigned long duration);
