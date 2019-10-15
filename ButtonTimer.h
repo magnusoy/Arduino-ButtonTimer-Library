@@ -11,8 +11,6 @@ class ButtonTimer
 {
 
 public:
-    //Defining Constants
-
     // Defining Functions
     ButtonTimer(unsigned long timeOut);
     bool isSwitchOn(int btn);

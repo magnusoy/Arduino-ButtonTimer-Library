@@ -3,16 +3,13 @@
 // Defining limit switches
 const int LIMIT_SWITCH_Y_BOTTOM = 2;
 const int LIMIT_SWITCH_Y_TOP = 3;
-const int LIMIT_SWITCH_X_LEFT = 4;
-const int LIMIT_SWITCH_X_RIGHT = 5;
 
-const unsigned long TIME_DELAY = 1000;
+#define TIME_DELAY 1000;
 
 ButtonTimer TON1(TIME_DELAY);
 ButtonTimer TON2(TIME_DELAY);
 
 void setup() {
-  // put your setup code here, to run once:
   Serial.begin(9600);
   initializeSwitches();
 }
